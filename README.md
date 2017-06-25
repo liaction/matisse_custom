@@ -43,14 +43,13 @@
 >                                             Matisse
 >                                             .from(this@SampleActivity)
 >                                             .showToolbar(true)
-> 2.可选择自定义目录:
+> 2.可选择自定义目录(只匹配目录名，不进行全路径匹配):
 >
->       									Matisse
->                                         .from(this@SampleActivity)
+>                                         Matisse.from(this@SampleActivity)
 >                                         .customFolders(arrayOf("news_article"))
 > 3.对特定图片或视频格式进行过滤(只展示所选择的类型，其他类型不进行显示):
 >
 >                                     Matisse
 >                                     .from(this@SampleActivity)
 >                                     .choose(MimeType.of(MimeType.GIF,MimeType.MP4)) // 用法和官方一致
-> 
+>
