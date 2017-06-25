@@ -1,23 +1,37 @@
 # matisse_custom
 对matisse进行学习+定制，以满足实际项目需求
 
-###[**原项目地址**](https://github.com/zhihu/Matisse) 
+###[**官方项目地址**](https://github.com/zhihu/Matisse) 
 
 ###使用说明
-> 下载后，作为依赖项目进行使用
+> 1.配置kotlin开发环境
+>
+> 2.下载后，作为依赖项目进行使用
+
+---
 
 
 
-Task List
+**Task List**
 
 - [x] 显示隐藏标题栏
+
 - [x] 自定义目录
+
 - [x] 过滤选择类型
+
 - [ ] 拍照功能作为单一功能
+
 - [ ] 拍照后照片同步
+
 - [ ] 录制视频功能
+
 - [ ] 其他文件管理
 
+
+------
+
+  
 
 
 ####增加修改内容如下：
@@ -39,4 +53,4 @@ Task List
 >                                     Matisse
 >                                     .from(this@SampleActivity)
 >                                     .choose(MimeType.of(MimeType.GIF,MimeType.MP4)) // 用法和官方一致
-> 4.默认只显示单一类型;
+> 
